@@ -1,4 +1,20 @@
-## Laravel PHP Framework
+# Laravel ToDo Example Application
+This is a basic example application using laracasts.com series Digging In - which is a great start to Laravel development (check it out!).
+
+I have taken the example a little further, and included some ajax goodness as well as taking advantage of Laravel soft deletes. I have also simplified the application, styled it a little further and made it just a list of todos, with no user filtering.
+
+To get setup you'll need to clone this repo then...
+
+a) Run "composer update"  
+b) Create a database called "laravel-todo-app"  
+c) Update the database configuration in "app/config/database.php" to match your MySQL details  
+d) Run "php artisan migrate" to create the tasks and users tables  
+e) Add a user to your users table in MySQL, password isn't important at this time  
+f) Finally start the server using "php artisan serve"
+
+Please let me know any issues, I can't make any promises - this is just test code really and a basic application, mostly thanks to Jeffrey Way of Laracasts.
+
+### Laravel PHP Framework
 
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
 
@@ -8,14 +24,14 @@ Laravel aims to make the development process a pleasing one for the developer wi
 
 Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
+### Official Documentation
 
 Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
-### Contributing To Laravel
+#### Contributing To Laravel
 
 **All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
 
-### License
+#### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
