@@ -1,16 +1,18 @@
 # Laravel ToDo Example Application
-This is a basic example application using laracasts.com series Digging In - which is a great start to Laravel development (check it out!).
+This is a basic example application using [laracasts.com](http://laracasts.com) series Digging In - which is a great start to Laravel development (check it out!).
 
 I have taken the example a little further, and included some ajax goodness as well as taking advantage of Laravel soft deletes. I have also simplified the application, styled it a little further and made it just a list of todos, with no user filtering.
 
+Example working version of the app is here: [laraveltodoapp.csoutham.com](http://laraveltodoapp.csoutham.com).
+
 To get setup you'll need to clone this repo then...
 
-a) Run "composer update"  
-b) Create a database called "laravel-todo-app"  
-c) Update the database configuration in "app/config/database.php" to match your MySQL details  
-d) Run "php artisan migrate" to create the tasks and users tables  
-e) Add a user to your users table in MySQL, password isn't important at this time  
-f) Finally start the server using "php artisan serve"
+1. Run "composer update"  
+2. Create a database called "laravel-todo-app"  
+3. Update the database configuration in "app/config/database.php" to match your MySQL details  
+4. Run "php artisan migrate" to create the tasks and users tables  
+5. Add a user to your users table in MySQL, password isn't important at this time  
+6. Finally start the server using "php artisan serve"
 
 Please let me know any issues, I can't make any promises - this is just test code really and a basic application, mostly thanks to Jeffrey Way of Laracasts.
 
