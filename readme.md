@@ -1,4 +1,11 @@
 # Laravel ToDo Example Application
+
+### Now [Forge](https://forge.laravel.com) compatible out of the box.
+Only settings required are two environment variables: db_name and db_password which you will have in your provisioning email. You will still need to run steps 4 & 5 below but other than that it will be up and running a matter of clicks straight from this repo.
+Example working version of the Forge provisioned app is here: [laraveltodoapp.forge.csoutham.com](http://laraveltodoapp.forge.csoutham.com) which is using the lowest spec Digital Ocean droplet.
+
+
+----
 This is a basic example application using [laracasts.com](http://laracasts.com) series Digging In - which is a great start to Laravel development (check it out!).
 
 I have taken the example a little further, and included some ajax goodness as well as taking advantage of Laravel soft deletes. I have also simplified the application, styled it a little further and made it just a list of todos, with no user filtering.
