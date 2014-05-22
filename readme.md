@@ -2,7 +2,6 @@
 
 ### Now [Forge](https://forge.laravel.com) compatible out of the box.
 Only settings required are two environment variables: db_name and db_password which you will have in your provisioning email. You will still need to run steps 4 & 5 below but other than that it will be up and running a matter of clicks straight from this repo.
-Example working version of the Forge provisioned app is here: [laraveltodoapp.forge.csoutham.com](http://laraveltodoapp.forge.csoutham.com) which is using the lowest spec Digital Ocean droplet.
 
 
 ----
