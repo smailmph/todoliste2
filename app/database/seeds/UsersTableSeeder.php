@@ -11,14 +11,14 @@ class UsersTableSeeder extends Seeder {
 		
 		
 		User::create([
-			'username' => 'ChrisSoutham',
-			'email' => 'me@csoutham.com',
-			'password' => 'password',
+			'username' => 'smail',
+			'email' => 'smail@gmail.com',
+			'password' => 'liams',
 		]);
 		
 		User::create([
-			'username' => 'LisaSoutham',
-			'email' => 'wife@csoutham.com',
+			'username' => 'test',
+			'email' => 'test@test',
 			'password' => 'password',
 		]);
 

@@ -20,7 +20,7 @@ $(function() {
 	$('a.task-delete').click(function () {
 		var task_id = $(this).data('task-id');
 		
-		if (confirm("Are you sure you want to delete this task?")) {
+		if (confirm("Êtes-vous sûr de vouloir supprimer cette tâche?")) {
 			$.ajax({
 				url: '/tasks/delete',
 				data: { '_method': 'DELETE', 'task_id': task_id },
