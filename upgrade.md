@@ -1,4 +1,4 @@
-# Laravel Upgrade Guide
+## Laravel Upgrade Guide
 
 ## Upgrading From 4.0 to 4.1
 
